@@ -7,14 +7,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/siriusdely/sirius/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/api/user"
-	"github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/siriusdely/sirius/pkg/api/user"
+	"github.com/siriusdely/sirius/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/siriusdely/sirius/pkg/utl/mock"
+	"github.com/siriusdely/sirius/pkg/utl/mock/mockdb"
+	"github.com/siriusdely/sirius/pkg/utl/server"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

@@ -3,10 +3,10 @@ package user_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/api/user"
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/siriusdely/sirius/pkg/api/user"
+	"github.com/siriusdely/sirius/pkg/utl/mock"
+	"github.com/siriusdely/sirius/pkg/utl/mock/mockdb"
+	"github.com/siriusdely/sirius/pkg/utl/model"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

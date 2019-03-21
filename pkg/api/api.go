@@ -34,24 +34,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/ribice/gorsk/pkg/utl/zlog"
+	"github.com/siriusdely/sirius/pkg/utl/zlog"
 
-	"github.com/ribice/gorsk/pkg/api/auth"
-	al "github.com/ribice/gorsk/pkg/api/auth/logging"
-	at "github.com/ribice/gorsk/pkg/api/auth/transport"
-	"github.com/ribice/gorsk/pkg/api/password"
-	pl "github.com/ribice/gorsk/pkg/api/password/logging"
-	pt "github.com/ribice/gorsk/pkg/api/password/transport"
-	"github.com/ribice/gorsk/pkg/api/user"
-	ul "github.com/ribice/gorsk/pkg/api/user/logging"
-	ut "github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/siriusdely/sirius/pkg/api/auth"
+	al "github.com/siriusdely/sirius/pkg/api/auth/logging"
+	at "github.com/siriusdely/sirius/pkg/api/auth/transport"
+	"github.com/siriusdely/sirius/pkg/api/password"
+	pl "github.com/siriusdely/sirius/pkg/api/password/logging"
+	pt "github.com/siriusdely/sirius/pkg/api/password/transport"
+	"github.com/siriusdely/sirius/pkg/api/user"
+	ul "github.com/siriusdely/sirius/pkg/api/user/logging"
+	ut "github.com/siriusdely/sirius/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/config"
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/postgres"
-	"github.com/ribice/gorsk/pkg/utl/rbac"
-	"github.com/ribice/gorsk/pkg/utl/secure"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/siriusdely/sirius/pkg/utl/config"
+	"github.com/siriusdely/sirius/pkg/utl/middleware/jwt"
+	"github.com/siriusdely/sirius/pkg/utl/postgres"
+	"github.com/siriusdely/sirius/pkg/utl/rbac"
+	"github.com/siriusdely/sirius/pkg/utl/secure"
+	"github.com/siriusdely/sirius/pkg/utl/server"
 )
 
 // Start starts the API service

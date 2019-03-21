@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/siriusdely/sirius/pkg/utl/middleware/jwt"
+	"github.com/siriusdely/sirius/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
+	"github.com/siriusdely/sirius/pkg/utl/mock"
 
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
