@@ -2,7 +2,7 @@ package mock
 
 import (
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // RBAC Mock

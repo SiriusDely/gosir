@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 
 	"github.com/labstack/echo"
 

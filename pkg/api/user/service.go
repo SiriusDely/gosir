@@ -4,8 +4,8 @@ import (
 	"github.com/go-pg/pg"
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/api/user/platform/pgsql"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/api/user/platform/pgsql"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // Service represents user application interface

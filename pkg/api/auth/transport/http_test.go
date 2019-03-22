@@ -10,13 +10,13 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/siriusdely/sirius/pkg/api/auth"
-	"github.com/siriusdely/sirius/pkg/api/auth/transport"
-	"github.com/siriusdely/sirius/pkg/utl/middleware/jwt"
-	"github.com/siriusdely/sirius/pkg/utl/mock"
-	"github.com/siriusdely/sirius/pkg/utl/mock/mockdb"
-	"github.com/siriusdely/sirius/pkg/utl/model"
-	"github.com/siriusdely/sirius/pkg/utl/server"
+	"github.com/siriusdely/gosir/pkg/api/auth"
+	"github.com/siriusdely/gosir/pkg/api/auth/transport"
+	"github.com/siriusdely/gosir/pkg/utl/middleware/jwt"
+	"github.com/siriusdely/gosir/pkg/utl/mock"
+	"github.com/siriusdely/gosir/pkg/utl/mock/mockdb"
+	"github.com/siriusdely/gosir/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/server"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/stretchr/testify/assert"

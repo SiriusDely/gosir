@@ -7,7 +7,7 @@ import (
 	"github.com/go-pg/pg/orm"
 
 	"github.com/go-pg/pg"
-	"github.com/siriusdely/sirius/pkg/utl/postgres"
+	"github.com/siriusdely/gosir/pkg/utl/postgres"
 
 	"github.com/fortytw2/dockertest"
 )

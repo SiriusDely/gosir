@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo/middleware"
-	"github.com/siriusdely/sirius/pkg/utl/middleware/secure"
+	"github.com/siriusdely/gosir/pkg/utl/middleware/secure"
 
 	"github.com/labstack/echo"
 )

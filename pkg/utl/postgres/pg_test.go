@@ -4,11 +4,11 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/siriusdely/sirius/pkg/utl/postgres"
+	"github.com/siriusdely/gosir/pkg/utl/postgres"
 
 	"github.com/fortytw2/dockertest"
 )

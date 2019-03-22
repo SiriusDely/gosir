@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/api/password"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/api/password"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // New creates new password logging service

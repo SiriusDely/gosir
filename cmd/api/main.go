@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 
-	"github.com/siriusdely/sirius/pkg/api"
+	"github.com/siriusdely/gosir/pkg/api"
 
-	"github.com/siriusdely/sirius/pkg/utl/config"
+	"github.com/siriusdely/gosir/pkg/utl/config"
 )
 
 func main() {

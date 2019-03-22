@@ -3,7 +3,7 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/structs"
+	"github.com/siriusdely/gosir/pkg/utl/structs"
 	"github.com/stretchr/testify/assert"
 )
 

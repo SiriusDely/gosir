@@ -3,7 +3,7 @@ package server_test
 import (
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/server"
+	"github.com/siriusdely/gosir/pkg/utl/server"
 )
 
 // Improve tests

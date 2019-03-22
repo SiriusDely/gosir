@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/api/auth"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/api/auth"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // New creates new auth logging service

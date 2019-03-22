@@ -3,10 +3,10 @@ package pgsql_test
 import (
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 
-	"github.com/siriusdely/sirius/pkg/api/user/platform/pgsql"
-	"github.com/siriusdely/sirius/pkg/utl/mock"
+	"github.com/siriusdely/gosir/pkg/api/user/platform/pgsql"
+	"github.com/siriusdely/gosir/pkg/utl/mock"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,7 +4,7 @@ import (
 	"crypto/sha1"
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/secure"
+	"github.com/siriusdely/gosir/pkg/utl/secure"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package gorsk_test
 import (
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 func TestChangePassword(t *testing.T) {

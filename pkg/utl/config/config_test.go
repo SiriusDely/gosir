@@ -3,7 +3,7 @@ package config_test
 import (
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/config"
+	"github.com/siriusdely/gosir/pkg/utl/config"
 	"github.com/stretchr/testify/assert"
 )
 

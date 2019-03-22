@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/api/user"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/api/user"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // New creates new user logging service

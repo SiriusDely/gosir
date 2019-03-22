@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/siriusdely/sirius/pkg/utl/middleware/secure"
+	"github.com/siriusdely/gosir/pkg/utl/middleware/secure"
 
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"

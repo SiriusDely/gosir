@@ -34,24 +34,24 @@ package api
 import (
 	"crypto/sha1"
 
-	"github.com/siriusdely/sirius/pkg/utl/zlog"
+	"github.com/siriusdely/gosir/pkg/utl/zlog"
 
-	"github.com/siriusdely/sirius/pkg/api/auth"
-	al "github.com/siriusdely/sirius/pkg/api/auth/logging"
-	at "github.com/siriusdely/sirius/pkg/api/auth/transport"
-	"github.com/siriusdely/sirius/pkg/api/password"
-	pl "github.com/siriusdely/sirius/pkg/api/password/logging"
-	pt "github.com/siriusdely/sirius/pkg/api/password/transport"
-	"github.com/siriusdely/sirius/pkg/api/user"
-	ul "github.com/siriusdely/sirius/pkg/api/user/logging"
-	ut "github.com/siriusdely/sirius/pkg/api/user/transport"
+	"github.com/siriusdely/gosir/pkg/api/auth"
+	al "github.com/siriusdely/gosir/pkg/api/auth/logging"
+	at "github.com/siriusdely/gosir/pkg/api/auth/transport"
+	"github.com/siriusdely/gosir/pkg/api/password"
+	pl "github.com/siriusdely/gosir/pkg/api/password/logging"
+	pt "github.com/siriusdely/gosir/pkg/api/password/transport"
+	"github.com/siriusdely/gosir/pkg/api/user"
+	ul "github.com/siriusdely/gosir/pkg/api/user/logging"
+	ut "github.com/siriusdely/gosir/pkg/api/user/transport"
 
-	"github.com/siriusdely/sirius/pkg/utl/config"
-	"github.com/siriusdely/sirius/pkg/utl/middleware/jwt"
-	"github.com/siriusdely/sirius/pkg/utl/postgres"
-	"github.com/siriusdely/sirius/pkg/utl/rbac"
-	"github.com/siriusdely/sirius/pkg/utl/secure"
-	"github.com/siriusdely/sirius/pkg/utl/server"
+	"github.com/siriusdely/gosir/pkg/utl/config"
+	"github.com/siriusdely/gosir/pkg/utl/middleware/jwt"
+	"github.com/siriusdely/gosir/pkg/utl/postgres"
+	"github.com/siriusdely/gosir/pkg/utl/rbac"
+	"github.com/siriusdely/gosir/pkg/utl/secure"
+	"github.com/siriusdely/gosir/pkg/utl/server"
 )
 
 // Start starts the API service

@@ -2,7 +2,7 @@ package pgsql
 
 import (
 	"github.com/go-pg/pg/orm"
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // NewUser returns a new user database instance

@@ -1,7 +1,7 @@
 package transport
 
 import (
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 )
 
 // Login request

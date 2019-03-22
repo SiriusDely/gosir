@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/siriusdely/sirius/pkg/api/password"
+	"github.com/siriusdely/gosir/pkg/api/password"
 
-	"github.com/siriusdely/sirius/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/model"
 
 	"github.com/labstack/echo"
 )

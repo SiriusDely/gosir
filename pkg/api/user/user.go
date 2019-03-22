@@ -3,9 +3,9 @@ package user
 
 import (
 	"github.com/labstack/echo"
-	"github.com/siriusdely/sirius/pkg/utl/model"
-	"github.com/siriusdely/sirius/pkg/utl/query"
-	"github.com/siriusdely/sirius/pkg/utl/structs"
+	"github.com/siriusdely/gosir/pkg/utl/model"
+	"github.com/siriusdely/gosir/pkg/utl/query"
+	"github.com/siriusdely/gosir/pkg/utl/structs"
 )
 
 // Create creates a new user account
